@@ -89,7 +89,7 @@ public class Main {
 
             System.out.println("Маша теперь получает " + mashaNewSal + " рублей. Годовой доход вырос на " + mashaAnnualDif + " рублей.");
             System.out.println("Денис теперь получает " + denisNewSal + " рублей. Годовой доход вырос на " + denisAnnualDif + " рублей.");
-             System.out.println("Кристина теперь получает " + kristinaNewSal + " рублей. Годовой доход вырос на " + kristinaAnnualDif + " рублей.");
+            System.out.println("Кристина теперь получает " + kristinaNewSal + " рублей. Годовой доход вырос на " + kristinaAnnualDif + " рублей.");
     }
 }
 
