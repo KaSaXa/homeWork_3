@@ -16,10 +16,10 @@ public class Main {
 
 //task 2
          double an = 27.12;
-         long ales = 987678965;
-         double rus = 2.786;
-         int main = 569;
-         int ileas = -159;
+         long ales = 987678965549L;
+         float rus = 2.786F;
+         short main = 569;
+         short ileas = -159;
          int brus = 27897;
          byte old = 67;
 //task 3
@@ -31,15 +31,19 @@ public class Main {
             int oneStudList = allList / allStud;
                 System.out.println(" На каждого ученика рассчитано " + oneStudList + " листов бумаги");
 //task 4
-        short min2 = 16;
-        int min20 = min2 * 10;
-            System.out.println("За 20 минут машина произвела " + min20 + " штук бутылок. ");
-        int days1 = min20 * 70;
-            System.out.println("За 1 день машина произвела " + days1 + " штук бутылок. ");
+        byte min1 = 16 / 2;
+        int min20 = 20;
+        int bottles20 = min20 * min1;
+            System.out.println("За 20 минут машина произвела " + bottles20 + " штук бутылок. ");
+        int days1 = 24 * 60;
+        int bottlesDay = days1 * min1;
+            System.out.println("За 1 день машина произвела " + bottlesDay + " штук бутылок. ");
         int days3 = days1 * 3;
-            System.out.println("За 3 дня машина произвела " + days3 + " штук бутылок. ");
-        int days30 = days3 * 10;
-            System.out.println("За месяц машина произвела " + days30 + " штук бутылок. ");
+        int bottles3 = days3 * min1;
+            System.out.println("За 3 дня машина произвела " + bottles3 + " штук бутылок. ");
+        int days30 = days1 * 30;
+        int bottles30 = days30 * min1;
+            System.out.println("За месяц машина произвела " + bottles30 + " штук бутылок. ");
 //task 5
         byte ttlBanks = 120;
         short banksPerClass = 6;
@@ -53,7 +57,7 @@ public class Main {
         int iceCream = 2 * 100;
         int egg = 4 * 70;
             int allWeightGr = banana + milk + iceCream + egg;
-            float allWeightKg = allWeightGr / 1000;
+            float allWeightKg = (float) allWeightGr / 1000;
                 System.out.println("Всего в рецепте " + allWeightGr + " граммов сырья или " + allWeightKg + " килограмм.");
 //task 7
         int weightToLose = 7000;
